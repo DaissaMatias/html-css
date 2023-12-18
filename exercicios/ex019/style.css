@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+
+body {
+    background-color: rgb(109, 189, 162);
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+h1 {
+   color: rgb(180, 102, 49);
+   font-family: 'Pridi', serif;
+   font-weight: 600;
+   
+}
+
+h1#principal {
+    text-align: center;
+    font-family: 'Tapestry', serif;
+    font-size: 2.8em;
+}
+
+.basico {
+    color: #4377c4;
+}
+
+.intermediario {
+    color: #2b813e;;
+}
+
+.avancado {
+    color: #ce2525;;
+}
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.562);
+}

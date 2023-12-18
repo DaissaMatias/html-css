@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: #598501;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #690606;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: violet;
+        }
+
+        .especial {
+            background-color: yellowgreen;
+        }
+
+        a:active {
+            color: black ;
+        }
+
+        .especial::before {
+            content: '℥';
+        }
+        
+        .especial::after {
+            content: 'ℬ';
+            text-decoration: none;
+            font-weight: normal;
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/DaissaMatias" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtu.be/tYwPEsgTv90?si=PUqEbd_KkQSYYZZE" class="especial" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.netshoes.com.br/" target="_blank">Site de compras</a></li>
+    </ul>
+</body>
+</html>
