@@ -31,7 +31,8 @@
 
 body {
     font-family: var(--fonte-secundaria);
-    font-size: 34px;
+    font-weight: 600;
+    font-size: 36px;
 }
 
 header {
@@ -65,7 +66,30 @@ a:hover {
 }
 
 #section1 {
-    padding: 30px 25px 25px 30px;
+    padding: 60px 25px 100px 25px;
+    line-height: 2em;
+}
+
+#backg1, #backg2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    margin: 0px 1360px 0px 0px;
+    padding: 2px 0 2px 8px;
+}
+
+#section2 {
+    padding: 60px 25px 100px 25px;
+    line-height: 2em;
+}
+
+#section3 {
+    padding: 60px 25px 100px 25px;
+    line-height: 2em;
+}
+
+#section4 {
+    padding: 60px 25px 100px 25px;
+    line-height: 2em;
 }
 
 footer {
