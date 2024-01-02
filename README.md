@@ -1,4 +1,3 @@
-# html-css
- Curso de HTML5 e CSS3 do CursoemVideo
+## Curso HTML e CSS <img width="64" height="64" src="https://img.icons8.com/nolan/64/e-learning.png" alt="e-learning"/>
+Aprendizado do curso de HTMl e CSS do [Curso em Video](https://www.cursoemvideo.com).
 
- Estou aprendendo a criar sites e agora vou gerenciar meus repositorios.
