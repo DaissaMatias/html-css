@@ -21,6 +21,7 @@
     --fonte-principal: 'Cinzel Decorative', serif;
     --fonte-principal-alternativa: 'Christmas', sans-serif;
     --fonte-secundaria: 'Libre Baskerville', serif;
+    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -32,6 +33,7 @@ html, body {
     min-height: 100vh;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
+    font-family: var(--fonte-secundaria);
     font-size: 36px;
 }
 
@@ -42,7 +44,7 @@ header {
 
 header h1 {
     font-family: var(--fonte-principal);
-    font-size: 72px;
+    font-size: 98px;
     color: white;
     text-align: center;
     font-variant: small-caps;
@@ -84,7 +86,8 @@ section.imagem {
 }
 
 section.imagem p {
-    width: 400px;
+    display: inline-block;
+    padding: 8px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
