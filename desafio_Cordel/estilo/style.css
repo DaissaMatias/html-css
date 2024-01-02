@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
@@ -29,7 +28,8 @@
     padding: 0;
 }
 
-body {
+html, body {
+    min-height: 100vh;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     font-size: 36px;
@@ -45,6 +45,7 @@ header h1 {
     font-size: 72px;
     color: white;
     text-align: center;
+    font-variant: small-caps;
 }
 
 .autor {
@@ -53,7 +54,7 @@ header h1 {
     text-align: center;
 }
 
-a {
+header a, footer a {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -61,38 +62,34 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-#section1 {
-    padding: 60px 25px 100px 25px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
 }
 
-#backg1, #backg2 {
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(53, 53, 53);
     color: white;
-    background-color: rgba(0, 0, 0, 0.37);
-    margin: 0px 1360px 0px 0px;
-    padding: 2px 0 2px 8px;
 }
 
-#section2 {
-    padding: 60px 25px 100px 25px;
-    line-height: 2em;
-}
-
-#section3 {
-    padding: 60px 25px 100px 25px;
-    line-height: 2em;
-}
-
-#section4 {
-    padding: 60px 25px 100px 25px;
-    line-height: 2em;
+section.imagem p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
 footer {
     background-color: var(--cor5);
     padding: 12px 10px;
+    text-align: center;
 }
