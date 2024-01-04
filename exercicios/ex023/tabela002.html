@@ -14,6 +14,13 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -22,7 +29,15 @@
         thead, tfoot {
             background-color: gray;
             color: white;
-        } 
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: white;
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
 
         td.num, td.porcent {
             text-align: right;
@@ -32,11 +47,12 @@
 <body>
     <h1>Uso de tabela grandes</h1>
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th>% da pop. total</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width: 80px;">% da pop. total</th>
             </tr>
         </thead>
         <tbody>
@@ -178,7 +194,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>203.062.512</strong></td>
                 <td class="porcent"><strong>100%</strong></td>
             </tr>
