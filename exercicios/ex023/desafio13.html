@@ -9,12 +9,14 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             background-color: black;
         }
-        h1 {
+        h1, h2 {
             color: white;
+            margin: 1.5em 0 1em 0;
         }
         table {
             border-collapse: collapse;
             width: 380px;
+            margin-left: 1em;
         }
         td {
             border: 2px solid green;
@@ -27,7 +29,8 @@
     </style>
 </head>
 <body>
-    <h1>Mesclando tabelas - Desafio (Parte 1)</h1>
+    <h1>Mesclando tabelas</h1>
+    <h2> - Desafio (Parte 1)</h2>
     <table>
         <tr>
             <td>1</td>
@@ -53,6 +56,32 @@
             <td>13</td>
             <td>14</td>
             <td>15</td>
+        </tr>
+    </table>
+    <h2> - Desafio (Parte 2)</h2>
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
         </tr>
     </table>
 </body>
