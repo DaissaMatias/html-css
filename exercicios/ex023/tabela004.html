@@ -24,12 +24,24 @@
             border: 1.5px solid black;
             padding: 8px;
         }
+
+        .cnome{
+            background-color: teal;
+        }
+
+        .cgrupo {
+            background-color: violet;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
 
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -42,6 +54,36 @@
             <td>F</td>
             <td>39</td>
             <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Luiz Otávio</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Personal Trainer</td>
+        </tr>
+        <tr>
+            <td>Roger Felix</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Claudia Tavares</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Daniel Souza</td>
+            <td>M</td>
+            <td>47</td>
+            <td>Chefe de Cozinha</td>
+        </tr>
+        <tr>
+            <td>Marisa Medeiros</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Esteticista</td>
         </tr>
     </table>
 </body>
